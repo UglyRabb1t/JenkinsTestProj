@@ -1,0 +1,49 @@
+a:hover {  /* 链接鼠标悬浮变红加框 */
+  color: green;
+  width: 500px;
+  border: 1px solid black;
+}
+
+/* p, h1, li 可以选择多种元素 */
+/* 选择器有很丰富的用法 */
+/* CSS 没有专门的单行注释 */
+
+html {  /* 改字体和字号 */
+  font-size: 20px; /* px 表示“像素（pixel）”: 基础字号为 10 像素 */
+  font-family: "Open Sans", sans-serif; /* 这应该是你从 Google Fonts 得到的其余输出。 */
+
+  background-color: #00539f;  /* 整体页面颜色 */
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+body {
+  width: 600px;
+  margin: 5px auto 5px;  /* auto 均匀分配  */
+  background-color: #ff9500;
+  padding: 0 20px 20px 20px;  /* 上、右、下、左，一二三四值详见相关语法 */
+  border: 5px solid black;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 3px 3px 5px black;
+}
+
+img {
+  display: block;  /* 为图片添加 block 属性，否则没有margin */
+  margin: 0 auto;
+  height: 15vw;
+}
